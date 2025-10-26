@@ -4,7 +4,7 @@
 
 You are going to implement the hash table data structure using the closed hashing as the CRP. 
 
-There are 6 methods that you need to implement to complete the data structure:
+These are the methods, some you need to implement to complete the data structure:
 
 - `HashTableClosed(int)` - Already provided.
 - `~HashTableClosed()`- Already provided.
@@ -24,4 +24,5 @@ A working `main` function is already provided. Use this to test your hash table 
 - `find` and `remove` need to throw errors if they're unable to complete their tasks, like this:
     ```C++
     throw string("message goes here");
+
     ```
